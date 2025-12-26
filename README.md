@@ -1,6 +1,6 @@
 # Booru Downloader — Danbooru & Co.
 
-A Windows-friendly **-booru downloader**: paste links → download files → done.
+A **-booru downloader**: paste links → download files → done.
 
 * Focus: **Danbooru** (via the JSON API, stable & fast)
 * Fallback: other boorus via HTML (best effort)
@@ -51,7 +51,6 @@ When enabled, for each pasted Danbooru link:
 ### Requirements
 
 * Python **3.10+**
-* Internet access
 
 ### Setup
 
@@ -125,11 +124,6 @@ Optional icon:
 ```bash
 pyinstaller --onefile --noconsole --icon app.ico -n BooruDownloader run.py
 ```
-
-Tips:
-
-* Build in a fresh virtual environment if possible
-* If Windows Defender complains: sign the binary or whitelist your build folder
 
 ---
 
